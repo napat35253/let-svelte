@@ -1,10 +1,19 @@
 :root {
 	--primary-color: #9f0a0a;
-	--secondary-color: #111314;
+	--sub-1-color: #970029;
+	--sub-2-color: #86003f;
+	--sub-3-color: #6d0d4d;
+	--sub-4-color: #511d53;
+	--sub-5-color: #352350;
+	--sub-6-color: #1c2345;
+	--sub-7-color: #0e2035;
+	--sub-8-color: #0d1a24;
+	--secondary-color: #111314
 }
-  
 
-html, body {
+
+html,
+body {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -15,7 +24,8 @@ body {
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
-	font-family:"sofia-pro",sans-serif;
+	font-family: "sofia-pro", sans-serif;
+	background: var(--secondary-color);
 }
 
 a {
@@ -28,14 +38,17 @@ a:hover {
 }
 
 a:visited {
-	color: rgb(0,80,160);
+	color: rgb(0, 80, 160);
 }
 
 label {
 	display: block;
 }
 
-input, button, select, textarea {
+input,
+button,
+select,
+textarea {
 	font-family: inherit;
 	font-size: inherit;
 	-webkit-padding: 0.4em 0;
